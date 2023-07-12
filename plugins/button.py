@@ -243,11 +243,11 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP and FORCE_SUB_GROUP2 and FORCE_SUB_GROUP3 and FORCE_SUB_GROUP4 and FORCE_SUB_GROUP5:
         buttons = [
             [
-                InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=client.invitelink),
-                InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=client.invitelink2),
+                InlineKeyboardButton(text="Join Chanell", url=client.invitelink),
+                InlineKeyboardButton(text="Join Chanell", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=client.invitelink3),
+                InlineKeyboardButton(text="Join Grub", url=client.invitelink3),
                 InlineKeyboardButton(text="𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=client.invitelink4),
             ],
             [
